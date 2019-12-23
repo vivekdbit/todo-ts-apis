@@ -1,0 +1,38 @@
+{
+  "name": "todo-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/app.js",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
+    "tsc": "tsc",
+    "test": "jest --watchAll --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/convict": "^4.2.1",
+    "@types/express": "^4.17.2",
+    "@types/express-validator": "^3.0.0",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/mongodb": "^3.3.12",
+    "@types/supertest": "^2.0.8",
+    "bcrypt": "^3.0.7",
+    "convict": "^5.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.0"
+  }
+}
